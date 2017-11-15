@@ -1,4 +1,4 @@
-package Java01Start.homeWork;
+package ProgUA.Java01Start.homeWork;
 
 public class test02 {
     public static void main(String[] args) {

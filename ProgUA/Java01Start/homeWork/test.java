@@ -1,4 +1,4 @@
-package Java01Start.homeWork;
+package ProgUA.Java01Start.homeWork;
 
 import static java.lang.Math.round;
 

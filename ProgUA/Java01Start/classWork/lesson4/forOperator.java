@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson4;
+package ProgUA.Java01Start.classWork.lesson4;
 
 public class forOperator {
     public static void main(String[] args) {

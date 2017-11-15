@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson07;
+package ProgUA.Java01Start.homeWork.lesson07;
 
 import java.util.Arrays;
 

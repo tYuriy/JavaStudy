@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson1;//import static javax.swing.JOptionPane.showMessageDialog;
+package ProgUA.Java01Start.classWork.lesson1;//import static javax.swing.JOptionPane.showMessageDialog;
 import static javax.swing.JOptionPane.*;
 
 public class HelloWorld {

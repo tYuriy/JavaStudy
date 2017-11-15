@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson06;
+package ProgUA.Java01Start.homeWork.lesson06;
 
 public class DoubleFactorial {
     //программа с методом для вычисления двойного факториала

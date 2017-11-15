@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson01_04;
+package ProgUA.Java01Start.homeWork.lesson01_04;
 
 public class homeWork006 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson8;
+package ProgUA.Java01Start.classWork.lesson8;
 
 class MyClass5{
     // Статическое поле:

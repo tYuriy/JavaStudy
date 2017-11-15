@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson08;
+package ProgUA.Java01Start.homeWork.lesson08;
 /*
 Напишите программу с классом,
 в котором есть два символьных поля и перегруженный метод для присваивания значений полям,

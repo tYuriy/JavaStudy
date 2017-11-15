@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson08;
+package ProgUA.Java01Start.homeWork.lesson08;
 
 /*
 Напишите программу с методом для подсчета количества вхождений символа в текстовую строку

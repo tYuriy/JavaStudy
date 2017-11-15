@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson01_04;
+package ProgUA.Java01Start.homeWork.lesson01_04;
 
 import java.util.Scanner;
 

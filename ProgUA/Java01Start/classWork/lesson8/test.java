@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson8;
+package ProgUA.Java01Start.classWork.lesson8;
 
 public class test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson6;
+package ProgUA.Java01Start.classWork.lesson6;
 
 public class TransposeDemo {
     // Метод для отображения содержимого массива:

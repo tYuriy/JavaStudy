@@ -1,4 +1,4 @@
-package Java01Start.homeWork.addMethods;
+package ProgUA.Java01Start.homeWork.addMethods;
 
 /*
 Напишите программу со статическим методом, аргументом которому передается символьный массив,

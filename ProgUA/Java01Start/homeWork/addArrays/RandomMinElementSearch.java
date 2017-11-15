@@ -1,4 +1,4 @@
-package Java01Start.homeWork.addArrays;
+package ProgUA.Java01Start.homeWork.addArrays;
 
 import java.util.Random;
 

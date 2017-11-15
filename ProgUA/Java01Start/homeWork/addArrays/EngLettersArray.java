@@ -1,4 +1,4 @@
-package Java01Start.homeWork.addArrays;
+package ProgUA.Java01Start.homeWork.addArrays;
 
 /*
 Напишите программу, в которой создается символьный массив из 10 элементов.

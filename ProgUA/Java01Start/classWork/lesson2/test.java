@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson2;
+package ProgUA.Java01Start.classWork.lesson2;
 
 import static javax.swing.JOptionPane.showInputDialog;
 import static javax.swing.JOptionPane.showMessageDialog;

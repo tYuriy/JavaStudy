@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson08;
+package ProgUA.Java01Start.homeWork.lesson08;
 /*
 * Напишите программу с классом, у которого есть два целочисленных поля и метод,
 * который выводит в консоль значение этих полей.

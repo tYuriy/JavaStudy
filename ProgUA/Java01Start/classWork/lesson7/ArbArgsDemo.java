@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson7;
+package ProgUA.Java01Start.classWork.lesson7;
 
 public class ArbArgsDemo {
     // Метод для вычисления суммы чисел:

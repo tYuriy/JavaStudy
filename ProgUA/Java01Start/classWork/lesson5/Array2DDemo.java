@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson5;
+package ProgUA.Java01Start.classWork.lesson5;
 
 public class Array2DDemo {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Java01Start.classWork.lesson3;
+package ProgUA.Java01Start.classWork.lesson3;
 
 import static javax.swing.JOptionPane.*;
 

@@ -1,4 +1,4 @@
-package Java01Start.homeWork.lesson05;
+package ProgUA.Java01Start.homeWork.lesson05;
 
 import java.util.Random;
 

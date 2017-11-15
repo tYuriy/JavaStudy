@@ -1,4 +1,4 @@
-package Java02OOP.classWork;
+package ProgUA.Java02OOP.classWork;
 
 public class test {
 }

@@ -1,4 +1,4 @@
-package Java01Start.homeWork.addMethods;
+package ProgUA.Java01Start.homeWork.addMethods;
 
 import java.util.Random;
 
