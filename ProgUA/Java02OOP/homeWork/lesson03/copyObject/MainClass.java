@@ -20,6 +20,6 @@ public class MainClass {
 
         //выводим адреса созданных объектов
         System.out.println("Адрес существующего объекта: " + arr1);
-        System.out.println("Адрес объекта, созданного методом: " + IntArrayFieldClass.copyObj(arr1.intArr));
+        System.out.println("Адрес объекта, созданного методом: " + IntArrayFieldClass.copyObj(arr1.getIntArr()));
     }
 }

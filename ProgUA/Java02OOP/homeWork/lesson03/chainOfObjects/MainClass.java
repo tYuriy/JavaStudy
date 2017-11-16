@@ -9,7 +9,7 @@ package ProgUA.Java02OOP.homeWork.lesson03.chainOfObjects;
 ссылку на объект в цепочке. Значения целочисленных полей объектов -
 ряд натуральных чисел (1,2,3 и т.д.). Опишите статический метод,
 которому аргументом предается объект данного класса.
-Метод отображает значения целочисленных полей всех объектов в цепочке.
+Метод отображает значения целочисленных полей всех объектов в цепочке. (Java_OOP_01 с.66)
  */
 
 public class MainClass {
@@ -26,12 +26,12 @@ public class MainClass {
             //ссылка на новый объект присваивается полю предыдущего объекта
             //а также, через конструктор присваивается значение числовому
             //полю нового объекта
-            ex.oc = new ObjClass(++count);
+            ex.setOc(new ObjClass(++count));
             //новый объект становится последним
-            ex=ex.oc;
+            ex=ex.getOc();
         }
         //последний объект в списке ссылается на первый, цепь объектов замкнута
-        ex.oc=obj;
+        ex.setOc(obj);
         //возвращается ссылка на первый объект в цепи
         return obj;
     }
@@ -39,15 +39,15 @@ public class MainClass {
     public static void showChain (ObjClass obj, int numb){
         for (int i = 1; i<=numb; i++){
             //вывод значения поля переданного объекта
-            System.out.print(obj.num+"\t");
+            System.out.print(obj.getNum()+"\t");
             //передача ссылки на следующий объект в цепи
-            obj = obj.oc;
+            obj=obj.getOc();
         }
     }
 
     public static void main(String[] args) {
         //кол-во элементов
-        int numb = 4;
+        int numb = 7;
         //создание цепочки объектов
         ObjClass MC1 = createChainObj(numb);
         //вывод значений числовых полей в цепи объектов
