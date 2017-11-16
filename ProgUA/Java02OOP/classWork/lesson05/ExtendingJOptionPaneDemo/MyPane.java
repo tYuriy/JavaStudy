@@ -8,7 +8,7 @@ class MyPane extends JOptionPane {
     static void showMessage(String txt,String title){
 // Вызов статического метода showMessageDialog() из
 // класса JOptionPane:
-        showMessageDialog(null,txt,title,PLAIN_MESSAGE, new ImageIcon("d:/books/pictures/giraffe.png"));
+        showMessageDialog(null,txt,title,PLAIN_MESSAGE, new ImageIcon("src/pics/sm.png"));
     }
     // Статический метод с одним аргументом
 // для отображения диалогового окна:
