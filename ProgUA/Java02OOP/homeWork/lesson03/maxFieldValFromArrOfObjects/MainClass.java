@@ -15,12 +15,12 @@ public class MainClass {
         IntFieldClass[]  ifcArr = new IntFieldClass[n];
         Random rnd = new Random();
         for (int i=0; i<n; i++){
-            ifcArr[i]=new IntFieldClass(rnd.nextInt(m));
+            ifcArr[i]=new IntFieldClass(rnd.nextInt(m)*-1);
         }
         System.out.println(maxSearch(ifcArr));
     }
     public static int maxSearch (IntFieldClass[] a){
-        int maxVal = 0;
+        int maxVal = a[0].getX();
         for (IntFieldClass s : a){
             System.out.print(s.getX() + "\t");
             if (s.getX()>maxVal) maxVal=s.getX();
