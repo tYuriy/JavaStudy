@@ -1,4 +1,4 @@
-package ProgUA.Java02OOP.classWork.lesson05.SuperAndSubDemo;
+package ProgUA.Java02OOP.classWork.lesson5.SuperAndSubDemo;
 
 class Alpha{ // Суперкласс
     String name; // Текстовое поле

@@ -1,4 +1,4 @@
-package ProgUA.Java02OOP.classWork.lesson05.SuperAndSubDemo;
+package ProgUA.Java02OOP.classWork.lesson5.SuperAndSubDemo;
 
 // Главный класс:
 class SuperAndSubDemo{
