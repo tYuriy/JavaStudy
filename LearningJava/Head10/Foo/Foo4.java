@@ -1,0 +1,11 @@
+package LearningJava.Head10.Foo;
+
+/**
+ * Created by user on 03.04.2017.
+ */
+public class Foo4 {
+    static final int x = 12;
+    public void go (){
+        System.out.println(x);
+    }
+}
