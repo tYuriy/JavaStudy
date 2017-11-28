@@ -12,11 +12,13 @@ public class inchToMetrical {
 
         Scanner sc = new Scanner(System.in);
         int i ,inch = sc.nextInt();
-
+        String nf = "";
 
         counter= 0;
         for (i =1; i <=inch; i++){
+            //String.format();
             //litres = gallon*3.7854;
+            //System.out.printf("%.3f", toMetre(i));
             System.out.println(i + " inches = " + toMetre(i) + " metres");
             counter++;
             if (counter ==12){
