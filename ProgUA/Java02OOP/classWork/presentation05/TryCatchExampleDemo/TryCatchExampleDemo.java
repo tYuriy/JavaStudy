@@ -1,5 +1,10 @@
 package ProgUA.Java02OOP.classWork.presentation05.TryCatchExampleDemo;
 
+import static java.lang.Integer.parseInt;
+import static javax.swing.JOptionPane.*;
+import static javax.swing.JOptionPane.ERROR_MESSAGE;
+import static javax.swing.JOptionPane.showMessageDialog;
+
 // Статический импорт:
 import static javax.swing.JOptionPane.*;
 import static java.lang.Integer.*;
