@@ -4,38 +4,39 @@ public class Parallelepiped {
     private int height;
     private int width;
     private int depth;
-    private int volume;
+    private int volume;//добавил переменную, в которую записывается значение объема
 
     Parallelepiped (){
         this.height=1;
         this.width=2;
         this.depth=3;
+        this.setVolume();
     }
     Parallelepiped (int a, int b, int c){
         this.height=a;
         this.width=b;
         this.depth=c;
+        this.setVolume();
     }
 
+    @Override //переопределен метод toString
+    public String toString (){
+        String str = "\thight = " + this.height
+                    + "\twidth = " + this.width
+                    + "\tdepth = "+ this.depth
+                    + "\tvolume = " + this.volume
+                    + "\n\t-------------------------- ";
+        return str;
+    }
+    public int getVolume (){
+        return volume;
+    }
+    public void setVolume() {
+        this.volume = this.depth*this.width*this.height;
+    }
     public void setVolume(int volume) {
         this.volume = volume;
     }
-
-    public int getVolume (){
-        return this.depth*this.width*this.height;
-    }
-    public int getVolume (ParaWeight pw1, ParaWeight pw2){
-        return pw1.getVolume() + pw2.getVolume();
-    }
-
-    public String toString (){
-        String str = "Parameters: \n\thight = " + this.height +
-                                 "\n\twidth = " + this.width +
-                                 "\n\tdepth = "+ this.depth +
-                                 "\n\tvolume = " + this.getVolume();
-        return str;
-    }
-
     public int getDepth() {
         return depth;
     }

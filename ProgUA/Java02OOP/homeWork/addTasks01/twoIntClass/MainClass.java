@@ -1,4 +1,4 @@
-package ProgUA.Java02OOP.homeWork.addTasks01.TwoIntClass;
+package ProgUA.Java02OOP.homeWork.addTasks01.twoIntClass;
 /*
 1. Напишите программу с классом, в котором есть два целочисленных поля.
 В классе должно быть две версии конструктора: с двумя аргументами и без аргумента.

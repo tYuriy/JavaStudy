@@ -1,4 +1,4 @@
-package ProgUA.Java02OOP.homeWork.addTasks01.TwoIntClass;
+package ProgUA.Java02OOP.homeWork.addTasks01.twoIntClass;
 
 
 
