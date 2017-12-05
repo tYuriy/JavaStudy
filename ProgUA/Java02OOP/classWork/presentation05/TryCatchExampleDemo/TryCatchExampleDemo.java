@@ -6,8 +6,7 @@ import static javax.swing.JOptionPane.ERROR_MESSAGE;
 import static javax.swing.JOptionPane.showMessageDialog;
 
 // Статический импорт:
-import static javax.swing.JOptionPane.*;
-import static java.lang.Integer.*;
+
 // Главный класс:
 class TryCatchExampleDemo{
     // Главный метод:

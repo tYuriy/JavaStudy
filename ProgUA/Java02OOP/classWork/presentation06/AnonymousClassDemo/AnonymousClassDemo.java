@@ -1,25 +1,11 @@
 package ProgUA.Java02OOP.classWork.presentation06.AnonymousClassDemo;
 
-// Абстрактный суперкласс:
-abstract class Base{
-    // Текстовое поле:
-    private String name;
-    // Конструктор:
-    Base(String txt){
-        name=txt;
-    }
-    // Метод для отображения значения текстового поля:
-    void show(){
-        System.out.println("Имя объекта: "+name);
-    }
-    // Объявление абстрактного метода:
-    abstract void hello();
-} // Главный класс:
 class AnonymousClassDemo{
     public static void main(String[] args){
 // Создание объекта анонимного класса:
         Base obj=new Base("Красный"){
             // Описание абстрактного метода из суперкласса:
+            @Override
             void hello(){
                 System.out.println("Объект анонимного класса");
             }
