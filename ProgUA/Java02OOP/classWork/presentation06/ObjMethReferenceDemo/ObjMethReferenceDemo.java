@@ -1,30 +1,5 @@
 package ProgUA.Java02OOP.classWork.presentation06.ObjMethReferenceDemo;
 
-// Класс:
-class MyClass{
-    // Закрытое целочисленное поле:
-    private int number;
-    // Конструктор:
-    MyClass(int n){
-        number=n;
-    }
-    // Метод для присваивания значения полю:
-    void set(int n){
-        number=n;
-    }
-    // Метод для считывания значения поля:
-    int get(){
-        return number;
-    }
-}
-// Первый функциональный интерфейс:
-interface MyGetter{
-    int myget();
-}
-// Второй функциональный интерфейс:
-interface MySetter{
-    void myset(int n);
-}
 // Продолжение на следующем слайде!!!
 class ObjMethReferenceDemo{ // Главный класс
     public static void main(String[] args){ // Главный метод

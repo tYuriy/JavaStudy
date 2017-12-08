@@ -18,7 +18,7 @@ public class MainClass {
 
 
         for (int i = 0; i < objCount; i++) {
-            System.out.println(rp1.toString());
+            System.out.println(rp1.toString());//+ " " + rp1.rp.toString());
         }
 
 

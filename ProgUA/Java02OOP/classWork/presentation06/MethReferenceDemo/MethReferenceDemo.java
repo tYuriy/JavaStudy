@@ -1,24 +1,6 @@
 package ProgUA.Java02OOP.classWork.presentation06.MethReferenceDemo;
 
-class MyClass{ // Класс с полем и методами
-    private int number;
-    MyClass(int n){
-        number=n;
-    }
-    void set(int n){
-        number=n;
-    }
-    int get(){
-        return number;
-    }
-} // Первый функциональный интерфейс:
-interface MyGetter{
-    int myget(MyClass obj);
-} // Второй функциональный интерфейс:
-interface MySetter{
-    void myset(MyClass obj,int n);
-} // Главный класс:
-class MethReferenceDemo{
+class MethReferenceDemo {
     public static void main(String[] args){
 // Создается объект:
         MyClass obj=new MyClass(100);

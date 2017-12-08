@@ -8,13 +8,13 @@ public class RingPart {
     private char sym;
     RingPart(){
         Random rnd = new Random();
-        num = rnd.nextInt();
-        sym = (char) rnd.nextInt();
+        num = rnd.nextInt(10000);
+        sym = (char) rnd.nextInt(400);
     }
     @Override
     public String toString() {
 
-        return super.toString() +" "+ this.num + " "+ this.sym + " " + this.rp;
+        return this.getClass() +" "+ this.num + " "+ this.sym + " " + this.rp.toString();
     }
 
     public char getSym() {
