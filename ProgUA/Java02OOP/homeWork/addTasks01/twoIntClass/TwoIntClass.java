@@ -6,8 +6,8 @@ public class TwoIntClass {
     private int a;
     private int b;
     TwoIntClass (){
-        a=1;
-        b=2;
+        this.a = 1;
+        this.b = 2;
     }
     TwoIntClass(int a, int b){
         this.a = a;

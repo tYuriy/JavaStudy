@@ -64,7 +64,7 @@ public class LHT2 {
             if (count==10) {
                 count = 0;
                 gridx = 0;
-                gridy += 1;
+                gridy++;
             }
 
         }
